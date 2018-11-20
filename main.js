@@ -9,7 +9,7 @@ setInterval(()=>{
     })
     $(`.images > img:nth-child(${x(n + 1)})`).removeClass('enter').addClass('current')
   n += 1
-},2000)
+},3000)
 
 function x(n){
     if(n>3){
